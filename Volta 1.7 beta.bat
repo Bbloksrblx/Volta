@@ -1,6 +1,6 @@
 @echo off
 if not exist "%temp%\delay.vbs" echo WScript.Sleep 100 > "%temp%\delay.vbs"
-set "scroll=cscript //nologo "%temp%\delay.vbs"
+set scroll=cscript //nologo "%temp%\delay.vbs"
 setlocal enabledelayedexpansion
 chcp 65001 >nul
 title Volta version 1.7 beta
